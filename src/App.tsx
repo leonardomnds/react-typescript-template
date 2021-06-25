@@ -1,9 +1,5 @@
-const App = () => {
-  return (
-    <div>
-      React Typescript Template
-    </div>
-  );
-}
+const App: React.FC = () => {
+  return <div>React Typescript Template</div>;
+};
 
 export default App;
