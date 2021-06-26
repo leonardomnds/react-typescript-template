@@ -9,7 +9,7 @@ export const Routes: React.FC = () => {
   return (
     <Switch>
       <Route path="/" exact component={PageOne} />
-      <Route path="/another-page" exact component={PageTwo} />
+      <Route path="/another-page" component={PageTwo} />
     </Switch>
   );
 };

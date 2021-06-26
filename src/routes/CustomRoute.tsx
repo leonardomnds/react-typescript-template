@@ -10,9 +10,9 @@ export const CustomRoute: React.FC<CustomRouteProps> = ({
   component: Component,
   ...rest
 }: CustomRouteProps) => {
-  const isAutenticated = true;
-  const loginPage = '/signin';
-  const initialPage = '/app';
+  const isAutenticated = false;
+  const loginPage = '/';
+  const initialPage = '/another-page';
 
   return (
     <Route
