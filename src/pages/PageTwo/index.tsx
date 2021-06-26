@@ -1,7 +1,3 @@
-import { FunctionComponent } from 'react';
-
-// import { Container } from './styles';
-
-export const PageTwo: FunctionComponent = () => {
-  return <div />;
+export const PageTwo: React.FC = () => {
+  return <h1>2</h1>;
 };

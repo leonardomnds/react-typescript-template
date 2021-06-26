@@ -1,4 +1,3 @@
-import { FunctionComponent } from 'react';
 import { Route, RouteProps, Redirect } from 'react-router-dom';
 
 interface CustomRouteProps extends RouteProps {
@@ -6,7 +5,7 @@ interface CustomRouteProps extends RouteProps {
   component: React.ComponentType;
 }
 
-export const CustomRoute: FunctionComponent<CustomRouteProps> = ({
+export const CustomRoute: React.FC<CustomRouteProps> = ({
   isPrivate = false,
   component: Component,
   ...rest
